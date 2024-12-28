@@ -1,6 +1,7 @@
 import 'package:chat_app/auth/auth_service.dart';
 import 'package:chat_app/components/my_button.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatelessWidget {
 
@@ -44,7 +45,7 @@ class LoginPage extends StatelessWidget {
           children: [
             // logo
             Icon(
-              Icons.message,
+              Icons.local_hospital_sharp,
               size: 60,
               color: Theme.of(context).colorScheme.primary,
             ),
@@ -53,7 +54,7 @@ class LoginPage extends StatelessWidget {
 
             // welcome back message
             Text(
-              "Welcome back, you've been missed",
+              "Welcome dear patient",
               style: TextStyle(
                 color: Theme.of(context).colorScheme.primary,
                 fontSize: 16,
@@ -69,6 +70,7 @@ class LoginPage extends StatelessWidget {
               
               decoration: InputDecoration(
                 labelText: "Email",
+                labelStyle: GoogleFonts.inter(),
                 border: OutlineInputBorder(borderRadius: BorderRadius.circular(10,)
                 )
               )
@@ -82,6 +84,7 @@ class LoginPage extends StatelessWidget {
             controller: _pwController, 
             decoration: InputDecoration(
               labelText: "Password",
+              labelStyle: GoogleFonts.inter(),
               border: OutlineInputBorder(borderRadius: BorderRadius.circular(10),
               )
             ),
@@ -93,6 +96,7 @@ class LoginPage extends StatelessWidget {
             GlowingButton(
               text: "Login",
               onPressed: () => login(context),
+              style: GoogleFonts.inter(),
             ),
 
             const SizedBox(height: 25),

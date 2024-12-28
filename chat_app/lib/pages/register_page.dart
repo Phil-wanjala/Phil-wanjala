@@ -1,6 +1,7 @@
 import 'package:chat_app/auth/auth_service.dart';
 import 'package:chat_app/components/my_button.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class RegisterPage extends StatelessWidget {
   // email and password text controllers
@@ -122,7 +123,9 @@ class RegisterPage extends StatelessWidget {
             //register button
             GlowingButton(
               text: "Register",
+              
               onPressed: () => register(context),
+              style: GoogleFonts.inter()
             ),
 
             const SizedBox(height: 25),

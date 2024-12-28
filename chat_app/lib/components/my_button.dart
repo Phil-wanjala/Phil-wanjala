@@ -7,7 +7,7 @@ class GlowingButton extends StatelessWidget {
   const GlowingButton({
     super.key,
     required this.text,
-    required this.onPressed,});
+    required this.onPressed, required TextStyle style,});
 
   @override
   Widget build(BuildContext context) {
