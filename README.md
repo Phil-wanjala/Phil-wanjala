@@ -10,7 +10,7 @@ Are you Tired of slow development cycles and blown budgets? I help startups and 
 ## 🛠 Pain → Solution  
 | Client Struggle | My Solution |  
 |----------------|------------|  
-| "Our app takes 6+ months to build" | **3-Week MVPs** with strategic tech choices |  
+| "Our app takes 6+ months to build" | **4-Week MVPs** with strategic tech choices |  
 | "Developers keep missing deadlines" | **Fixed timelines** with weekly deliverables |  
 | "Our app crashes on production" | **Performance-optimized** architecture |  
 
